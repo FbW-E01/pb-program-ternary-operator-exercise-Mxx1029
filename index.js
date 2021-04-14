@@ -10,12 +10,15 @@ if (a + b < 4) {
 } */
 
 /* _________________________________ */
-let a=3;
-let b=6;
+{
+  let a = 3;
+  let b = 6;
 
 //write your code here 
-console.log(result)
-
+  let result;
+  (a + b < 4) ? result = "Below" : result = "Over";
+  console.log(result)
+}
 /* _________________________________ */
 
 
@@ -30,14 +33,14 @@ else
 } */
 
 /* _________________________________ */
-
+{
 let score = 42;
 let msg = "";
 
 //write your code here 
-
-console.log(msg)
-
+(score > 1337) ? msg = "This is a new highscore!" : msg = "You need more points to beat the highscore!";
+console.log(msg);
+}
 /* _________________________________ */
 
 
@@ -58,9 +61,12 @@ if (login == 'Employee') {
 
 /* _________________________________ */
 
-
+{
+  const login = "";
+  let message;
+  (login === "Employee") ? message = "Hello" : ((login === "Director") ? message = "Greetings" : ((login === "") ? message = "No login" : message = "")); 
 //write your code here 
-console.log(message)
-
+  console.log(message)
+}
 /* _________________________________ */
 
